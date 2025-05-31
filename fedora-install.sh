@@ -52,6 +52,7 @@ bin_dir="/usr/bin"
 
 sudo dnf -y update
 sudo dnf -y install python-pip
+sudo dnf-y install boxes
 
 echo "";
         echo -e "${YELLOW}[*] Checking directories...${NC}"
